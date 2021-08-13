@@ -4,6 +4,7 @@
 #'
 #' @param art A character of your artistic hobby!
 #' @param supplies A character of the supplies you use
+
 #'
 #' @return
 #' @export

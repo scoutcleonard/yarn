@@ -4,12 +4,16 @@
 #'
 #' @param friend_name This is a character argument that is your friend's name
 #' @param yarn_yardage This is a number that tells you yarn yardage
-#' @param garment A character containing a knit garment
 #'
 #' @return
 #' @export
 #'
 #' @examples
-yarn <- function(friend_name, yarn_yardage, garment) {
-  return(paste(friend_name, "!", "I will make you a", garment, "of", yarn_yardage, "yards"))
+yarn <- function(friend_name, yarn_yardage) {
+  if (yarn_yardage <= 150){
+    return(paste(friend_name, "! I will knit you a hat"))
+  }
+  else if (yarn_yardage > 150) {
+    return(paste(friend_name, "! I will knit you a sweater"))
+  }
 }

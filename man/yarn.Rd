@@ -4,14 +4,12 @@
 \alias{yarn}
 \title{Knitting for Friends}
 \usage{
-yarn(friend_name, yarn_yardage, garment)
+yarn(friend_name, yarn_yardage)
 }
 \arguments{
 \item{friend_name}{This is a character argument that is your friend's name}
 
 \item{yarn_yardage}{This is a number that tells you yarn yardage}
-
-\item{garment}{A character containing a knit garment}
 }
 \value{
 
